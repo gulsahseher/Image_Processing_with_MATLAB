@@ -12,7 +12,7 @@ I=imread("low-contrast-lena.jpg");
 figure,imshow(uint8(I))
 [w,h]=size(I);
 
-% Calculates the histogram of an image by counting the occurrence of each pixel value.
+%% Calculates the histogram of an image by counting the occurrence of each pixel value.
 
 % histog=zeros(1,256);
 % 
@@ -22,15 +22,17 @@ figure,imshow(uint8(I))
 %     end
 % end
 
+% Call the 'find_histogram' function for histogram
+
 [hm1]=find_histogram(I);
-% [hm1]=imhist(I)
+% [hm1]=imhist(I) %% calculates the histogram of the image
 figure, plot(hm1)
 figure, bar(hm1)
 
-I2=imadjust(I) 
+I2=imadjust(I) % adjusts the contrast of the input image I by rescaling its pixel values and enhancing the image's appearance.
 figure,imshow(I2),title("enhancement_image")
 
 [hm2]=find_histogram(I2);
-% [hm2]=imhist(I2)
+% [hm2]=imhist(I2) %% calculates the histogram of the image
 figure, plot(hm2)
 figure, bar(hm2)
