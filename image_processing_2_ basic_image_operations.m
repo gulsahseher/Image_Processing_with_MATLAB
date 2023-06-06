@@ -3,7 +3,10 @@ clear all;
 clear;
 close all;
 
-% This file covers fundamental image processing operations that can be performed in MATLAB.
+% This file covers fundamental image processing operations that can be performed in MATLAB. 
+% Please remember to uncomment the code snippet you want to use by removing the comment symbol (%).
+
+%****************************************
 
 % File reading and display
 
@@ -81,7 +84,7 @@ close all;
 % figure,imshow(uint8(I2))
 % figure,imshow(uint8(I3))
 % figure,imshow(uint8(I4))
-% 
+
 %*****************************************
 
 % Cropping 
