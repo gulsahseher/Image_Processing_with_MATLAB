@@ -100,6 +100,6 @@ b=input('Input a number=');
 % display(output)
 
 % Call the 'hesapla' function with inputs 'a' and 'b'
-[sonuc1,sonuc2]=hesapla(a,b)
-display(sonuc1)
-display(sonuc2)
+[output1,output2]=calculate(a,b)
+display(output1)
+display(output2)
