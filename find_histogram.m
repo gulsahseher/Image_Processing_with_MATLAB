@@ -1,4 +1,4 @@
-function [histog]=histogram_bulma(I)
+function [histog]=find_histogram(I)
 
 [w,h]=size(I);
 histog=zeros(1,256);
