@@ -25,7 +25,7 @@ for i=1:h-1
 end
 
 figure,imshow(uint8(I2)),title("ZOOM-First Method")
-figure,imshow(uint8(I3)),title("Second Method")
+figure,imshow(uint8(I3)),title("ZOOM-Second Method")
 
 r=3;
 I4=imresize(I,r,"nearest");
