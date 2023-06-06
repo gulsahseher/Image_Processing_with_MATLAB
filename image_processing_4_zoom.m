@@ -39,6 +39,7 @@ figure,imshow(uint8(I3)),title("ZOOM-Second Method")
 % Resize the image using different interpolation methods (nearest, bilinear, and bicubic)
 % scale factor: it specifies the ratio by which the size of the input image changes. If oran>1 (enlargement), oran<1 (reduction).
 % method: it refers to the interpolation method used for resizing, which determines how new pixel values are calculated during size changes.
+
 r=3;
 I4=imresize(I,r,"nearest");   
 I5=imresize(I,r,"bilinear"); 
