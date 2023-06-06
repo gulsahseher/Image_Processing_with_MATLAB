@@ -15,7 +15,6 @@ figure,imshow(uint8(I2)),title("shifted")
 
 x=10;
 y=10;
-
 for i=x:w
     for j=y:h
         I3(i,j)=I1(i-x+1,j-y+1);
