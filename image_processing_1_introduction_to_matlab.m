@@ -99,7 +99,7 @@ b=input('Input a number=');
 % output=a+b;
 % display(output)
 
-%% Call the 'hesapla' function with inputs 'a' and 'b'
+%% Call the 'calculate' function with inputs 'a' and 'b'
 [output1,output2]=calculate(a,b)
 display(output1)
 display(output2)
